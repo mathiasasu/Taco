@@ -1,0 +1,254 @@
+html {
+    background-color: rgba(122, 191, 191, .5);
+    margin: 0 auto;  
+    font-family:Arial, Arial, Helvetica, sans-serif;
+    min-width: 414px;
+    width: 414px;
+
+}
+
+body {
+margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+    font-style: normal;
+}
+
+
+
+header {
+    background-color: #F2F2F2;
+    
+}
+
+/* MENU*/
+
+menu {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+}
+menu li {
+    width: 90px;
+}
+
+button {
+  height: 80px;
+    border: none; 
+    padding: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #EB5428;
+}
+
+/* Main NAV */
+
+nav { 
+    background-color: #ffffff;
+
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {  
+  
+  
+}
+
+nav a {
+    display: grid;
+}
+
+#food_nav {
+
+margin-right: 5%;
+}
+
+#home {
+    background-color: #EB5428;
+    padding-left:70px ;
+    padding-right: 80px;
+
+}
+
+#sign-up {
+    padding-left: 20px;
+
+}
+nav h2 {
+  display: none;
+}
+#food_items{
+    display: none;
+}
+
+/*body content */
+
+
+
+p , dl ,ul, ol {
+    font-family: "Montserrat", sans-serif;  
+}
+
+section {
+    background-color: #ffffff;
+    
+}
+
+section img {
+    width: 100%;
+    height: auto;
+}
+
+
+dl.inline dd {
+    display: inline;
+    margin: 0;
+  }
+  dl.inline dd:after{
+    display: block;
+    content: '';
+  }
+  dl.inline dt{
+    display: inline-block;
+    min-width: 100px;
+    font-weight: bold;
+  }
+
+
+ul {
+    list-style-type: square;
+}
+
+
+/* ASIDE*/
+
+aside {
+    background-color: #7ABFBF;
+
+
+}
+
+aside img {
+    height: 65%;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.sides_cards {
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+ grid-gap: 10px;
+} 
+
+.card {
+     white-space: initial;
+    display: flex;
+     height: 150px;
+  }
+  .about_side {
+  }
+
+.main h3 {
+   
+}
+
+.img_side {
+padding-left: 10px;
+}
+
+.about_side {
+    padding-left: 10px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer a {
+    display: grid;
+margin: 20px;
+    text-decoration: none; 
+    font-family: "Bebas Neue", sans-serif;
+    color: #EB5428;
+    outline: solid red;
+}
+
+footer img {
+    width: 50%;
+    display: grid;
+margin: 0 auto;
+outline: solid red;
+}
+
+footer h3 p  {
+    font-family: "Bebas Neue", sans-serif;
+    display: grid;
+    outline: solid red;
+
+}
+
+footer p {
+    font-family: "Bebas Neue", sans-serif;
+    outline: solid red;
+}
+
+
+@media screen and (min-width: 880px) {
+    body {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    header {
+   
+    }
+
+    h1 {
+
+        outline: solid red;
+    }
+
+    nav { 
+
+        display: inline;
+        }
+
+    nav li {
+        list-style-type: none;
+        display: inline-flex;
+      
+    }
+
+    #food_nav {
+       
+    }
+    #food_items {
+        display: inline;
+    }
+    nav a {
+        outline: solid red;
+   
+    }
+
+    nav img {
+        width: 5%;
+    }
+}
